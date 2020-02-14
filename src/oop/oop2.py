@@ -1,9 +1,10 @@
-# To the GroundVehicle class, add method drive() that returns "vroooom".
+
 class GroundVehicle():
     # Also change it so the num_wheels defaults to 4 if not specified when the
     # object is constructed.
     def __init__(self, num_wheels=4):
         self.num_wheels = num_wheels
+    # To the GroundVehicle class, add method drive() that returns "vroooom".
     def drive(self):
         return "vroooom"
 
